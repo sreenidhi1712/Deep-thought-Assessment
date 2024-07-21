@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepthought-Assessment</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <img src="./Deepthoughtlogo.svg" alt="logo" class="logo-DT" />
+        <ul class="links">
+          <li><img src="./Group 1097.svg" alt="home" class="home" /></li>
+          <li>
+            <img src="./Group 1100.svg" alt="settings" class="settings" />
+          </li>
+          <li><img src="./Vector.svg" alt="bellIcon" class="bell-icon" /></li>
+          <li>
+            <img src="./Ellipse 53.svg" alt="userIcon" class="user-icon" />
+          </li>
+          <li>
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="notice-board">
+        <div class="notice-board-header">
+          <img src="./close.svg" />
+          <p style="margin-top: 20px">N</p>
+          <p>o</p>
+          <p>t</p>
+          <p>i</p>
+          <p>c</p>
+          <p>e</p>
+          <p style="margin-top: 25px">B</p>
+          <p>o</p>
+          <p>a</p>
+          <p>r</p>
+          <p>d</p>
+        </div>
+        <div class="notice-board-content"></div>
+      </div>
+      <div id="side-bar">
+        <div class="side-bar-header">
+          <p>Journey Board</p>
+          <img src="./closeSidebar.svg" id="close-btn" />
+          <img src="./openSidebar.svg" id="open-btn" />
+        </div>
+        <div id="side-bar-content">
+          <ul id="side-bar-task-title"></ul>
+          <ul id="side-bar-tasks-list"></ul>
+
+          <div id="journey-board-status">
+            <p class="journey-board-status-count">1</p>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <img src="./question-mark.svg" />
+      </div>
+      <div class="meeting">
+        <img src="./meeting.svg" />
+      </div>
+      <div class="schedule">
+        <img src="./schedule.svg" />
+      </div>
+      <div class="main-container">
+        <div class="title-main">
+          <div class="text-container">
+            <p class="title-text">Technical Project Management</p>
+          </div>
+
+          <button class="submit-btn">submit task</button>
+        </div>
+
+        <div class="task-container">
+          <div class="task-content">
+            <p id="task-title"></p>
+            <p id="task-description"></p>
+          </div>
+        </div>
+
+        <div id="assets-main">
+          <div id="assets-container"></div>
+        </div>
+      </div>
+      <aside class="right-sidebar"></aside>
+    </main>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
